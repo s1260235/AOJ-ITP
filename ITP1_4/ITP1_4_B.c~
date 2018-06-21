@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+  double are,circ,r;
+ scanf("%f",&r);
+ are = 2 * r * 3.141592653589;
+ circ = 3.141592653589 * r * 2;
+    printf("%f %f",are,circ);
+    return 0;
+    }
+    
